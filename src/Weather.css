@@ -1,0 +1,19 @@
+.Weather {
+  border: 1px;
+}
+
+.Weather ul {
+  list-style-type: none;
+}
+.Weather .col {
+  columns: 2 auto;
+}
+
+.Weather .col-9 {
+  columns: 2 auto;
+  column-width: 17px;
+}
+
+.Weather .col-3 {
+  columns: 1 auto;
+}
