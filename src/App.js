@@ -5,15 +5,19 @@ export default function App() {
   return (
     <div className="App">
       <div className="container">
-        <h1>Weather App</h1>>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h1>Weather App</h1>
+        <footer>
+          React Weather Application created by Halle Gregory and
+          <a
+            className="GitHub-link"
+            href="https://github.com/MissHalle/weather-app-react"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {" "}
+            open-sourced on Github
+          </a>
+        </footer>
       </div>
     </div>
   );
