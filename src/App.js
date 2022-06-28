@@ -1,4 +1,5 @@
 import React from "react";
+
 import "./App.css";
 
 export default function App() {
@@ -6,6 +7,7 @@ export default function App() {
     <div className="App">
       <div className="container">
         <h1>Weather App</h1>
+        <button className="btn btn-primary">Weather </button>
         <footer>
           React Weather Application created by Halle Gregory and
           <a
