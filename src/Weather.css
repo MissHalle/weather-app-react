@@ -14,7 +14,6 @@
 }
 
 .Weather ul {
-  list-style-type: none;
   margin: 0;
   padding: 0%;
 }
@@ -23,24 +22,29 @@
   font-size: 16px;
   font-weight: 100;
   line-height: 19px;
+  list-style: none;
+}
+
+.Weather img {
+  height: 64px;
+  margin-right: 10px;
+  width: 64px;
+  display: inline-block;
 }
 
 .Weather .temperature {
   font-weight: bold;
+  line-height: 64px;
   color: rgb(33, 33, 33);
   font-size: 64px;
   font-weight: 400;
 }
 
-.Weather .col-9 {
-  columns: 4 auto;
-  column-width: 17px;
-}
-
-.Weather .col-3 {
-  columns: 2 auto;
-}
-
-.Weather .col-1 {
-  text-align: right;
+.Weather .unit {
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+  top: -34px;
+  line-height: 1;
+  margin-left: 5px;
 }
